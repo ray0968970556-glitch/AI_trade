@@ -6,15 +6,15 @@
 import subprocess, sys, os
 
 # ── 安裝所需套件（Colab / HuggingFace 首次執行）─────────────────────────────
-subprocess.run([
-    sys.executable, "-m", "pip", "install", "-q",
-    "gradio",
-    "undetected-chromedriver",
-    "selenium",
-    "fake-useragent",
-    "beautifulsoup4",
-    "openpyxl",
-], check=True)
+# subprocess.run([
+#     sys.executable, "-m", "pip", "install", "-q",
+#     "gradio",
+#     "undetected-chromedriver",
+#     "selenium",
+#     "fake-useragent",
+#     "beautifulsoup4",
+#     "openpyxl",
+# ], check=True)
 
 # ── 安裝 Chrome / ChromeDriver（在 HuggingFace Space 終端機執行）──────────
 def install_chrome():
