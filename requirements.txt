@@ -6,3 +6,4 @@ beautifulsoup4
 undetected-chromedriver
 fake-useragent
 selenium
+setuptools
